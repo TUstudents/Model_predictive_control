@@ -1,0 +1,22 @@
+[project]
+name = "model-predictive-control"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+    "botorch>=0.14.0",
+    "casadi>=3.7.0",
+    "cvxpy>=1.6.5",
+    "gpytorch>=1.14",
+    "ipykernel>=6.29.5",
+    "ipywidgets>=8.1.7",
+    "matplotlib>=3.10.3",
+    "pandas>=2.2.3",
+    "scipy>=1.15.3",
+    "seaborn>=0.13.2",
+    "torch==2.6.0",
+]
+
+[[tool.uv.index]]
+name = "pytorch-cu126"
+url = "https://download.pytorch.org/whl/cu126"
+explicit = true

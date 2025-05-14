@@ -237,3 +237,9 @@
     *   F.4 Tuning the Kalman Filter: The Role of $Q_K$ and $R_K$
     *   F.5 Connection to MPC
     *   F.6 Limitations and Extensions
+
+
+    # Install python environmen
+
+    Use a WSL or Linux environment/OS
+    uv init --bare --python 3.12 was used to setup the pyproject.toml file.
