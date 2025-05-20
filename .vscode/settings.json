@@ -1,0 +1,7 @@
+{
+    "python.testing.pytestArgs": [
+        "onnx_casadi_converter/tests"
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true
+}
